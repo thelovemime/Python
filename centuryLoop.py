@@ -1,16 +1,13 @@
-# Cuadrado 2
+# Cuadrado 0.2
 
-print("bienvenido")
+print("Bienvenido\n")
 
 c = 0
 
 while c < 100:
-	print("Ingresa la base del cuadrado: ")
-	num = int(input())
-	print("ingresa la su altura: ")
-	num2 = int(input())
-	print("resultado: ", num+num2)
-	print("quieres volver a calcular?")
+	num = int(input("Ingresa la base del cuadrado: "))
+	num2 = int(input("ingresa la su altura: "))
+	print("resultado: ", num+num2,"\nquieres volver a calcular?")
 	resp = input()
 	
 	if resp == "si":
